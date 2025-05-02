@@ -6,65 +6,65 @@
 
 @layer base {
   :root {
-    --background: 30 18% 83%;
-    --foreground: 0 0% 20%;
+    --background: 210 14% 95%; /* Light grayish background */
+    --foreground: 210 8% 25%; /* Darker gray text for readability */
 
-    --card: 34 13% 90%;
-    --card-foreground: 0 0% 20%;
+    --card: 210 12% 92%; /* Light, muted background for cards */
+    --card-foreground: 210 8% 20%; /* Darker text for cards */
 
-    --popover: 30 18% 83%;
-    --popover-foreground: 0 0% 20%;
+    --popover: 210 14% 95%; /* Soft background for popovers */
+    --popover-foreground: 210 8% 25%; /* Dark text in popovers */
 
-    --primary: 0 0% 20%;
-    --primary-foreground: 30 18% 83%;
+    --primary: 210 18% 50%; /* Muted, calm blue for primary actions */
+    --primary-foreground: 0 0% 100%; /* White text on primary buttons */
 
-    --secondary: 34 13% 90%;
-    --secondary-foreground: 0 0% 20%;
+    --secondary: 210 10% 85%; /* Light secondary background */
+    --secondary-foreground: 210 8% 20%; /* Dark text for secondary elements */
 
-    --muted: 0 0% 30%;
-    --muted-foreground: 0 0% 60%;
+    --muted: 210 18% 50%; /* Darkened muted blue for better contrast */
+    --muted-foreground: 210 8% 40%; /* Darker text for muted elements */
 
-    --accent: 0 0% 20%;
-    --accent-foreground: 30 18% 83%;
+    --accent: 210 20% 50%; /* Slightly darker blue for accent elements */
+    --accent-foreground: 0 0% 100%; /* White text on accent elements */
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 30 18% 83%;
+    --destructive: 0 84.2% 60.2%; /* Destructive color for warnings or errors */
+    --destructive-foreground: 0 0% 100%; /* White text on destructive actions */
 
-    --border: 0 0% 70%;
-    --input: 0 0% 70%;
-    --ring: 0 0% 20%;
+    --border: 210 10% 80%; /* Light border color for separation */
+    --input: 210 10% 85%; /* Soft background for input fields */
+    --ring: 210 18% 60%; /* Focus ring color matching primary */
 
-    --radius: 0.5rem;
+    --radius: 0.5rem; /* Consistent border radius for elements */
   }
 
   .dark {
-    --background: 0 0% 20%;
-    --foreground: 30 18% 83%;
+    --background: 210 20% 18%; /* Dark grayish background for dark mode */
+    --foreground: 210 12% 90%; /* Lighter text for dark mode */
 
-    --card: 0 0% 15%;
-    --card-foreground: 30 18% 83%;
+    --card: 210 18% 20%; /* Dark card background */
+    --card-foreground: 210 12% 85%; /* Lighter text on dark cards */
 
-    --popover: 0 0% 20%;
-    --popover-foreground: 30 18% 83%;
+    --popover: 210 18% 20%; /* Dark popover background */
+    --popover-foreground: 210 12% 85%; /* Lighter text in popovers */
 
-    --primary: 30 18% 83%;
-    --primary-foreground: 0 0% 20%;
+    --primary: 210 18% 80%; /* Lighter muted blue for primary in dark mode */
+    --primary-foreground: 0 0% 100%; /* White text on primary buttons */
 
-    --secondary: 0 0% 15%;
-    --secondary-foreground: 30 18% 83%;
+    --secondary: 210 18% 15%; /* Dark secondary background */
+    --secondary-foreground: 210 12% 85%; /* Lighter text on secondary elements */
 
-    --muted: 0 0% 30%;
-    --muted-foreground: 30 18% 70%;
+    --muted: 210 18% 30%; /* Darker muted gray */
+    --muted-foreground: 210 12% 70%; /* Lighter text for muted elements */
 
-    --accent: 30 18% 83%;
-    --accent-foreground: 0 0% 20%;
+    --accent: 210 18% 75%; /* Lighter accent color for dark mode */
+    --accent-foreground: 0 0% 100%; /* White text on accent elements */
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 30 18% 83%;
+    --destructive: 0 84.2% 60.2%; /* Destructive color for warnings or errors */
+    --destructive-foreground: 0 0% 100%; /* White text on destructive actions */
 
-    --border: 0 0% 30%;
-    --input: 0 0% 30%;
-    --ring: 30 18% 83%;
+    --border: 210 10% 40%; /* Darker border for separation */
+    --input: 210 10% 35%; /* Dark input field background */
+    --ring: 210 18% 70%; /* Focus ring color for dark mode */
   }
 }
 
