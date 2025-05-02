@@ -56,7 +56,7 @@ export default function Hero() {
           </p>
           <div className="flex flex-wrap gap-4 fade-in-section justify-center" style={{ animationDelay: "1s" }}>
             <a
-              href="https://drive.google.com/file/d/1MxYC-L3wE4-W91jzFWF9HEkCxT6BzuFl/view"
+              href="https://drive.google.com/file/d/1qSOB0mWBJNHni3VByLq8FhF4Q_f795DA/view"
               target="_blank"
               className="px-6 py-3 bg-primary text-primary-foreground rounded-md font-medium 
                        hover:bg-primary/90 transition-colors shadow-lg shadow-primary/20"
