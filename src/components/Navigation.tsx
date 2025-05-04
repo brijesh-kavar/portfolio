@@ -49,7 +49,7 @@ export default function Navigation() {
       >
         <div className="container mx-auto flex justify-between items-center">
           <a href="#home" className="text-xl font-bold text-primary">
-            Digital<span className="text-foreground">Shelf</span>
+            Digital<span className="text-foreground">Self</span>
           </a>
 
           <nav className={`${isMobile ? "hidden" : ""}`}>
